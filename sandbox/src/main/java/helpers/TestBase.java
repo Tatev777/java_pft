@@ -32,9 +32,10 @@ public class TestBase {
   protected static FeedModels feed;
   protected static TimelineModels timeline;
 
+//  protected final HelpersBase app = new HelpersBase(BrowserType.CHROME);
+
   @BeforeClass
   public static void setUp() {
-
     String browser = BrowserType.CHROME;
     switch (browser) {
       case BrowserType.CHROME:
